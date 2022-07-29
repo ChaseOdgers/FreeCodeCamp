@@ -1,0 +1,9 @@
+What do I wrap in div?
+confused on flexbox inheritance
+- nav bar example: 
+
+problem I ran into: 
+- modifying .nav-list li after establishing .nav-list as flexbox, learned that the li no longer has bearing
+- on the list items as theyre now flex items
+
+-when do i use display "flex" does it only apply at the container level?

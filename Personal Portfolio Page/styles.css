@@ -1,0 +1,33 @@
+:root {
+    --color1: #ED8008;
+    --color2: #ed3f1c;
+    --color3: #bf1b1b;
+    --color4: #73681E;
+    --color5: #d9d2c6;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+
+.nav-list  {
+    display: flex;
+    gap: 1rem;
+    margin: 1;
+    padding: 0;
+    list-style: none;    
+    border-color: black;
+    border-width: 20px;
+}
+
+#profilepic {
+    width: 200px;
+    height: 200px;
+    transform: skew();
+}
