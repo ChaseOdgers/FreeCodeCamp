@@ -1,0 +1,17 @@
+body {
+    text-align: center;
+}
+
+#img-div {
+    text-align: center;
+    font-style: italic;
+    max-width: auto;
+    max-height: auto;
+}
+
+#tribute-info, #tribute-info-heading {
+    text-align: left;
+    padding-left: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}

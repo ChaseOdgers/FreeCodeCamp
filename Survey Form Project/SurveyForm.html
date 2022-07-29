@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habit Tracker</title>
+</head>
+<body>
+    <!-- 1 -->  
+    <h1 id="title">What Did You Do Today?</h1>
+
+    <!-- 2 -->  
+    <p id="description">This is a form used to track your daily tasks.</p>
+    
+    <!-- 3 -->    
+    <form id="survey-form">
+        
+        <!-- 4 -->  
+        <label for="name" id="name-label">Name </label>
+        <input id="name" type="text" placeholder="First, Last" required>
+        <br>
+
+        <!-- 5/6 -->  
+        <label for="email" id="email-label">Email </label>
+        <input id="email" type="email" placeholder="example@example.com" required>
+        <br>
+
+        <!-- 7/8/9 -->  
+        <label for="number" id="number-label">Age </label>
+        <input id="number" type="number" min="18" max="150" placeholder="18">
+        <br>
+        
+        <!-- 10/11 - the labels for the above inputs -->  
+
+        <!-- 12 -->  
+        <label for="dropdown">What type of day was today? </label>
+        <select id="dropdown" name="Day Type">
+            <option value="Work">Work</option>
+            <option value="PTO">PTO</option>
+            <option value="Weekend">Weekend</option>
+        </select>
+        <br>
+
+        <!-- 13 -->
+        <label for="day-productive" name="day-productive">Was your day productive?</label>
+        <label for="dayradioYes">Yes </label>
+            <input type="radio" id="dayradioYes" name="day-productive" value="Yes">
+            <label for="dayradioNo">No </label>
+            <input type="radio" id="dayradioNo" name="day-productive" value="No">
+        </label>
+        <br>
+
+        <!-- 14 -->
+        <label for="dietgoalsCheck">Met Diet Goals: </label>
+        <input type="checkbox" id="dietgoalsCheck" name="habits" value="x">
+        <br>
+        
+        <label for="exercisegoalsCheck">Met Exercise Goals: </label>
+        <input type="checkbox" id="dietgoalsCheck" name="habits" value="x">
+        <br>
+
+        <!-- 15 -->
+        <label for="additionalNotes">Additional notes for today: </label>
+        <textarea id="additionalNotes"></textarea>
+        <br>
+
+        <!-- 16 -->
+        <button id="submit" type="submit">Submit</button>
+    </form>
+</body>
+</html>
